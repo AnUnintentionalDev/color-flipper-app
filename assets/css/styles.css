@@ -57,7 +57,7 @@ body {
   -webkit-transition: all ease-in-out 0.2s;
 }
 
-.app-navbar ul li a:hover {
+.app-navbar ul li a:hover, .app-navbar ul li a.active-nav-item {
   color: #1194ff;
   text-decoration: underline;
 }
